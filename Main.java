@@ -16,7 +16,7 @@ public class Main {
           if(!entries.contains(someOne)) {
               entries.add(someOne);
           } else {
-              System.out.println(someOne.name() + "is already entried.");
+              System.out.println(someOne.name() + " is already entried.");
           }
 	  
           entries.stream()
